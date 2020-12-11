@@ -9,12 +9,9 @@
 body {
   color: var(--main-color);
   background-color: var(--main-background-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
-}
-a {
-  text-decoration: none;
 }
 li {
   list-style-type: none;
@@ -22,11 +19,12 @@ li {
 
 .logo {
   color: #000000;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo > span {
   color: var(--accent-color);
@@ -36,14 +34,16 @@ li {
 }
 .nav-item {
   color: var(--main-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-item.contact {
   color: var(--second-color);
+  text-decoration: none;
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -120,18 +120,19 @@ li {
 }
 .logo-footer {
   color: #ffffff;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo-footer > span {
   color: var(--accent-color);
 }
 .adress-map {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -139,10 +140,47 @@ li {
 }
 .address-item {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.filter-button {
+  color: var(--main-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.progect-link {
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+.progect-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.progect-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
